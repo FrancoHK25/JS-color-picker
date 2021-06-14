@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <label class="color-selector-text">Select your Color</label>
+    <div class="color-selector">
+        <button class="color-picked" name="color-picked"></button>
+        <div class="color-picker">
+            <div class="hsl-section">
+                <input type="range" class="hsl-slider" name="hue-slider" id="hue-slider" min="0" max="360">
+                <input type="range" class="hsl-slider" name="sat-slider" id="sat-slider" min="1" max="100">
+                <input type="range" class="hsl-slider" name="lig-slider" id="lig-slider" min="1" max="100">
+            </div>
+            <div class="rgb-section">
+                <label for="red" class="red">R</label>
+                <input type="number" name="red" class="red" id="red" size="1" min="0" max="255">
+                <label for="green" class="green">G</label>
+                <input type="number" name="green" class="green" id="green" size="1" min="0" max="255">
+                <label for="blue" class="blue">B</label>
+                <input type="number" name="blue" class="blue" id="blue" size="1" min="0" max="255">
+            </div>
+            <div class="palette-section">
+                <button class="color-palette current-color" id="current-color"></button>
+
+                <button class="color-palette sample" id="color-palette-1"></button>
+                <button class="color-palette sample" id="color-palette-2"></button>
+                <button class="color-palette sample" id="color-palette-3"></button>
+                <button class="color-palette sample" id="color-palette-4"></button>
+                <button class="color-palette sample" id="color-palette-5"></button>
+                <button class="color-palette sample" id="color-palette-6"></button>
+                <button class="color-palette sample" id="color-palette-7"></button>
+                <button class="color-palette sample" id="color-palette-8"></button>
+                <button class="color-palette sample" id="color-palette-9"></button>
+                <button class="color-palette sample" id="color-palette-10"></button>
+
+
+                <button class="color-palette color-saved" id="color-saved-1"></button>
+                <button class="color-palette color-saved" id="color-saved-2"></button>
+
+                <button class="color-palette sample" id="color-palette-11"></button>
+                <button class="color-palette sample" id="color-palette-12"></button>
+                <button class="color-palette sample" id="color-palette-13"></button>
+                <button class="color-palette sample" id="color-palette-14"></button>
+                <button class="color-palette sample" id="color-palette-15"></button>
+                <button class="color-palette sample" id="color-palette-16"></button>
+                <button class="color-palette sample" id="color-palette-17"></button>
+                <button class="color-palette sample" id="color-palette-18"></button>
+                <button class="color-palette sample" id="color-palette-19"></button>
+                <button class="color-palette sample" id="color-palette-20"></button>
+
+                
+                <button class="color-palette color-saved" id="color-saved-3"></button>
+                <button class="color-palette color-saved" id="color-saved-4"></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
