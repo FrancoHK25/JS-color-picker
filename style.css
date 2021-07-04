@@ -29,7 +29,7 @@
 }
 
 .color-picked:hover {
-    filter: brightness(200%);
+    filter: brightness(120%);
 }
 /*---Color Picker Component-----------------------------------------------*/
 
@@ -49,23 +49,6 @@
     overflow: hidden;
     visibility: hidden;
 }
-
-/* 
-.color-picker::before {
-    overflow: visible;
-    content: "";
-
-    position: absolute;
-    top: -30px;
-
-    width: 0px;
-    height: 0px;
-
-    border-top: 10px solid transparent;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid white;
-} */
 
 
 /*---HSL Section-----------------------------------------------*/
@@ -257,7 +240,7 @@
 #color-palette-19 {background-color: indigo;}
 #color-palette-20 {background-color: purple;}
 
-.color-saved {
+.empty {
     background: conic-gradient(
         white 0.25turn,
         gray 0.25turn 0.5turn,
